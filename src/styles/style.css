@@ -1,0 +1,83 @@
+.note-app {
+    text-align: center;
+    padding: 20px;
+}
+
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.note-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.note-item__title {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.note-item__body {
+    margin: 10px 0;
+}
+
+.note-item__createdAt {
+    font-size: 0.8rem;
+    color: #777;
+    margin: 0;
+}
+
+.note-list-archived {
+    margin-top: 20px;
+    display: flex;
+}
+
+.note-input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.note-input input[type="text"],
+.note-input textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.note-input .char-count {
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.note-input label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.note-input button {
+    background: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-title {
+    color: red;
+}
